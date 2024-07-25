@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://smart-data-models.github.io/data-models/common-schema.json",
+  "$id": "https://eliottpaillard.github.io/data-models/common-schema.json",
   "title": "Common definitions for data models coming from schema.org",
   "definitions": {
     "image": {
@@ -566,10 +566,10 @@
             ]
           },
           "availabilityStarts": {
-            "$ref": "https://smart-data-models.github.io/data-models/schema-org.json/#definitions/availabilityStarts"
+            "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json/#definitions/availabilityStarts"
           },
           "availabilityEnds": {
-            "$ref": "https://smart-data-models.github.io/data-models/schema-org.json/#definitions/availabilityEnds"
+            "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json/#definitions/availabilityEnds"
           },
           "url": {
             "type": "string"
@@ -607,10 +607,10 @@
             "type": "string"
           },
           "price": {
-            "$ref": "https://smart-data-models.github.io/data-models/schema-org.json/#definitions/price"
+            "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json/#definitions/price"
           },
           "priceCurrency": {
-            "$ref": "https://smart-data-models.github.io/data-models/schema-org.json/#definitions/priceCurrency"
+            "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json/#definitions/priceCurrency"
           },
           "availabilityStarts": {
             "type": "string",
@@ -621,7 +621,7 @@
             "format": "uri"
           },
           "offeredBy": {
-            "$ref": "https://smart-data-models.github.io/data-models/schema-org.json/#definitions/offeredBy"
+            "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json/#definitions/offeredBy"
           }
         }
       }
@@ -642,10 +642,10 @@
             "type": "string"
           },
           "startDate": {
-            "$ref": "https://smart-data-models.github.io/data-models/schema-org.json#/definitions/startDate"
+            "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json#/definitions/startDate"
           },
           "endDate": {
-            "$ref": "https://smart-data-models.github.io/data-models/schema-org.json#/definitions/endDate"
+            "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json#/definitions/endDate"
           },
           "url": {
             "type": "string",
@@ -668,19 +668,19 @@
               "type": "string"
             },
             "latitude": {
-              "$ref": "https://smart-data-models.github.io/data-models/schema-org.json#/definitions/latitude"
+              "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json#/definitions/latitude"
             },
             "longitude": {
-              "$ref": "https://smart-data-models.github.io/data-models/schema-org.json#/definitions/longitude"
+              "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json#/definitions/longitude"
             },
             "isAccessibleForFree": {
-              "$ref": "https://smart-data-models.github.io/data-models/schema-org.json#/definitions/isAccessibleForFree"
+              "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json#/definitions/isAccessibleForFree"
             },
             "publicAccess": {
-              "$ref": "https://smart-data-models.github.io/data-models/schema-org.json#/definitions/publicAccess"
+              "$ref": "https://eliottpaillard.github.io/data-models/schema-org.json#/definitions/publicAccess"
             },
             "openingHours": {
-              "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/DateTime-Commons/openingHours"
+              "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/DateTime-Commons/openingHours"
             }
           }
         }

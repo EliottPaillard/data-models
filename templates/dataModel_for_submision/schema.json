@@ -1,19 +1,19 @@
 {
   "$schema": "http://json-schema.org/schema#",
   "$schemaVersion": "0.0.1",
-  "$id": "https://smart-data-models.github.io/dataModel.Energy/ThreePhaseAcMeasurement/schema.json",
+  "$id": "https://eliottpaillard.github.io/dataModel.Energy/ThreePhaseAcMeasurement/schema.json",
   "title": "Smart Data Models - Energy / Three Phase AC Measurement",
   "description": "An electrical  measurement from a system that uses three phase alternating current.",
   "modelTags": "",
   "derivedFrom": "",
-  "license": "https://smart-data-models.github.io/dataModel.Energy/ThreePhaseAcMeasurement/LICENSE.md",
+  "license": "https://eliottpaillard.github.io/dataModel.Energy/ThreePhaseAcMeasurement/LICENSE.md",
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+      "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
     },
     {
-      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+      "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/Location-Commons"
     },
     {
       "properties": {
@@ -28,7 +28,7 @@
           "type": "array",
           "description": "Relationship. Device(s) used to obtain the measurement.",
           "items": {
-            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
+            "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
           },
           "minItems": 1,
           "uniqueItems": true
@@ -37,7 +37,7 @@
           "type": "array",
           "description": "Relationship. Device(s) for which the measurement was taken.",
           "items": {
-            "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
+            "$ref": "https://eliottpaillard.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
           },
           "minItems": 1,
           "uniqueItems": true

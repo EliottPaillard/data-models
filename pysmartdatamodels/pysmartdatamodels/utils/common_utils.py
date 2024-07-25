@@ -1886,9 +1886,9 @@ def is_metadata_existed(output: dict, jsonDict: dict, schemaUrl: str, message: s
     - dict: The updated output dictionary with metadata warnings.
 
     Example:
-    >>> schema = {"$schema": "http://json-schema.org/schema#", "$id": "https://example.com/schema", "title": "Example Schema"}
+    >>> schema = {"$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "https://example.com/schema", "title": "Example Schema"}
     >>> is_metadata_existed({}, schema, "https://example.com/schema")
-    {'metadata': {'$schema': {'warning': '$schema should be "http://json-schema.org/schema#" by default'},
+    {'metadata': {'$schema': {'warning': '$schema should be "https://json-schema.org/draft/2020-12/schema" by default'},
                   '$id': {'warning': '$id doesn't match, please check it again'},
                   'title': {'warning': 'Title too short'},
                   'description': {'warning': 'Description is empty'},
@@ -1901,7 +1901,7 @@ def is_metadata_existed(output: dict, jsonDict: dict, schemaUrl: str, message: s
         output["metadata"] = {}
 
     metadata_fields = {
-        "$schema": {"type": "string", "value": "http://json-schema.org/schema#"},
+        "$schema": {"type": "string", "value": "https://json-schema.org/draft/2020-12/schema"},
         "$id": {"type": "string", "value": schemaUrl},
         "title": {"type": "string", "min_length": 15},
         "description": {"type": "string", "min_length": 34},
